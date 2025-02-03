@@ -25,7 +25,7 @@ const Hero = () => {
           </ul>
         </div>
         <div className=" h-4/5 flex gap-16 flex-col justify-center items-center xl:h-full xl:w-full">
-          <ul className="flex flex-col text-center w-full h-fit justify-center gap-5 text-3xl">
+          <ul className="flex flex-col text-center w-full h-fit justify-center gap-5 text-xl xl:text-3xl">
             <li>
               <TypeAnimation
                 sequence={["Halo, Selamat Datang", 1000]}
