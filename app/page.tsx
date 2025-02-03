@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Organisasi from "@/components/Organisasi";
 import Profil from "@/components/Profil";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <div className="-mt-[22rem]">
         <Hero/>
         <Profil/>
+        <Organisasi/>
       </div>
     </div>
   );
