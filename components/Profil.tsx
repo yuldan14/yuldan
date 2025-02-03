@@ -31,7 +31,7 @@ const Profil = () => {
             baru adalah peluang untuk belajar sesuatu yang baru dan menerapkan
             kreativitas.
           </p>
-          <p>Apa yang saya sudah lakukan?</p>
+          <h1 className="text-lg mb-2">Apa yang saya sudah lakukan?</h1>
           <ol type="1" className="list-decimal pl-5">
             <li>
               {" "}

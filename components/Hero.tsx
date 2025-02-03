@@ -53,7 +53,7 @@ const Hero = () => {
         </div>
         <div className="w-full flex justify-center xl:w-1/5 ">
           {/* Media Sosial */}
-          <ul className=" absolute bottom-28 flex w-[80%] xl:justify-around justify-between xl:flex-col xl:relative xl:bottom-0 xl:w-fit">
+          <ul className=" absolute bottom-24 flex w-[80%] xl:justify-around justify-between xl:flex-col xl:relative xl:bottom-0 xl:w-fit">
             <li className="bg-black px-3 py-3 rounded-full w-fit">
               <a href="">
                 <Instagram className="" />
