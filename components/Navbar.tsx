@@ -6,9 +6,9 @@ function Navbar() {
   // State untuk toggle menu
   const [isOpen, setIsOpen] = useState(false);
 
-  // Ref untuk menyimpan referensi ke elemen ul dan menu burger
-  const menuRef = useRef(null);
-  const burgerRef = useRef(null);
+  // Ref untuk menyimpan referensi ke elemen ul dan menu burger dengan tipe yang benar
+  const menuRef = useRef<HTMLUListElement | null>(null); // Menentukan tipe untuk menuRef
+  const burgerRef = useRef<HTMLDivElement | null>(null); // Menentukan tipe untuk burgerRef
 
   // Fungsi untuk toggle menu
   const toggleMenu = () => {
@@ -17,8 +17,10 @@ function Navbar() {
 
   // Fungsi untuk menangani klik di luar
   const handleClickOutside = (event: MouseEvent) => {
-    if (menuRef.current && !menuRef.current.contains(event.target as Node) &&
-        burgerRef.current && !burgerRef.current.contains(event.target as Node)) {
+    if (
+      menuRef.current && !menuRef.current.contains(event.target as Node) &&
+      burgerRef.current && !burgerRef.current.contains(event.target as Node)
+    ) {
       setIsOpen(false); // Menutup menu jika klik di luar
     }
   };
@@ -43,17 +45,33 @@ function Navbar() {
           />
         </div>
         {/* Bagian Kanan Navbar */}
-        <div className="w-4/5 h-screen  ">
+        <div className="w-4/5 h-screen">
           <ul
             ref={menuRef} // Menambahkan ref ke elemen ul
-            className={` top-20 gap-10 flex flex-col transition-all duration-500  w-[5rem] float-end  ${
+            className={`top-20 gap-10 flex flex-col transition-all duration-500 w-[5rem] float-end ${
               isOpen ? "right-10 sm:-right-20" : "-right-[999px]"
-            } xl:flex-row xl:top-0  xl:left-0 xl:h-14 xl:gap-0 xl:justify-around xl:float-right xl:w-4/5 text-white xl:text-black absolute xl:relative`}
+            } xl:flex-row xl:top-0 xl:left-0 xl:h-14 xl:gap-0 xl:justify-around xl:float-right xl:w-4/5 text-white xl:text-black absolute xl:relative`}
           >
-            <li className="w-24  xl:flex xl:justify-center xl:items-center "><a href="#" className="bg-white text-black h-10  rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center">Profil</a></li>
-            <li className="w-24 xl:flex xl:justify-center xl:items-center"><a href="#" className="bg-white text-black h-10  rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center">Organisasi</a></li>
-            <li className="w-24 xl:flex xl:justify-center xl:items-center"><a href="#" className="bg-white text-black h-10  rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center">Proyek</a></li>
-            <li className="w-24 xl:flex xl:justify-center xl:items-center"><a href="#" className="bg-white text-black h-10  rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center">Sertifikat</a></li>
+            <li className="w-24 xl:flex xl:justify-center xl:items-center">
+              <a href="#" className="bg-white text-black h-10 rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center">
+                Profil
+              </a>
+            </li>
+            <li className="w-24 xl:flex xl:justify-center xl:items-center">
+              <a href="#" className="bg-white text-black h-10 rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center">
+                Organisasi
+              </a>
+            </li>
+            <li className="w-24 xl:flex xl:justify-center xl:items-center">
+              <a href="#" className="bg-white text-black h-10 rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center">
+                Proyek
+              </a>
+            </li>
+            <li className="w-24 xl:flex xl:justify-center xl:items-center">
+              <a href="#" className="bg-white text-black h-10 rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center">
+                Sertifikat
+              </a>
+            </li>
           </ul>
         </div>
         {/* Menu Burger */}
