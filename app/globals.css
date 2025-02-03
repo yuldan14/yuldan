@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'NunitoSans';
+}
+
+
+@font-face {
+  font-family: 'NunitoSans';
+  src: url('../public/NunitoSans.ttf');
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 400% 400%;
+  }
+}
+
+.shimmer-bg {
+  background: linear-gradient(to right, #f093fb, #f5576c, #f093fb);
+  background-size: 400% 400%;
+  animation: shimmer 16s linear infinite;
+}
+.nunito{
+  font-family: 'NunitoSans';
+}
+
