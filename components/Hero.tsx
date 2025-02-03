@@ -1,9 +1,7 @@
 "use client";
 import React from "react";
 import {
-  Facebook,
   GitHub,
-  Home,
   Instagram,
   Linkedin,
   Mail,

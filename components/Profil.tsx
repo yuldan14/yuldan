@@ -66,7 +66,7 @@ const Profil = () => {
           </ol>
           <div className="w-full justify-center flex mt-5 flex-col items-center">
             <h4 className="bg-gradient-to-r from-pink-400 to-red-400 bg-clip-text text-transparent  nunito uppercase">Motto</h4>
-            <p>"Sic Parvis Magna: Setiap perjalanan besar dimulai dengan langkah kecil. Tidak ada yang mustahil jika kita berani memulai dari yang sederhana."</p>
+            <p>&quot;Sic Parvis Magna: Setiap perjalanan besar dimulai dengan langkah kecil. Tidak ada yang mustahil jika kita berani memulai dari yang sederhana.&quot;</p>
           </div>
         </div>
       </div>
