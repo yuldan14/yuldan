@@ -51,7 +51,7 @@ function Navbar() {
           >
             <li className="w-24 xl:flex xl:justify-center xl:items-center">
               <a
-                href="#"
+                href="#profil"
                 className="bg-white text-black h-10 rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center"
               >
                 Profil
@@ -59,7 +59,7 @@ function Navbar() {
             </li>
             <li className="w-24 xl:flex xl:justify-center xl:items-center">
               <a
-                href="#"
+                href="#organisasi"
                 className="bg-white text-black h-10 rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center"
               >
                 Organisasi
@@ -67,7 +67,7 @@ function Navbar() {
             </li>
             <li className="w-24 xl:flex xl:justify-center xl:items-center">
               <a
-                href="#"
+                href="#proyek"
                 className="bg-white text-black h-10 rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center"
               >
                 Proyek
@@ -75,7 +75,7 @@ function Navbar() {
             </li>
             <li className="w-24 xl:flex xl:justify-center xl:items-center">
               <a
-                href="#"
+                href="#sertifikat"
                 className="bg-white text-black h-10 rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center"
               >
                 Sertifikat

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Profil = () => {
   return (
-    <div className="h-full w-full">
+    <div className="h-full w-full pt-14">
       <div className="h-16 flex justify-center items-center  ">
         <p className="uppercase text-3xl tracking-wider">-- Profil --</p>
       </div>

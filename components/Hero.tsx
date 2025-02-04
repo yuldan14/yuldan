@@ -48,13 +48,13 @@ const Hero = () => {
           </ul>
           <div className="  h-fit flex justify-center items-center ">
             <button className="px-5 py-2 rounded-3xl bg-black text-white hover:scale-105 transition-transform duration-300 text-sm" >
-              Mari Berkenalan
+              <a href="#profil">Mari Berkenalan</a>
             </button>
           </div>
         </div>
         <div className="w-full flex justify-center xl:w-1/5 ">
           {/* Media Sosial */}
-          <ul className="xl:left-[17rem] absolute bottom-24 flex w-[80%] xl:justify-around justify-between xl:flex-col xl:absolute xl:h-4/5 xl:bottom-[3rem] xl:w-fit z-50">
+          <ul className="xl:left-[17rem] absolute bottom-24 flex w-[80%] xl:justify-around justify-between xl:flex-col xl:absolute xl:h-4/5 xl:bottom-[3rem] xl:w-fit">
             <li className="bg-black px-3 py-3 rounded-full w-fit">
               <a href="https://www.instagram.com/yuldaan" target='_blank'>
                 <Instagram />

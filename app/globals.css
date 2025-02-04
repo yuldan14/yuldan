@@ -13,11 +13,14 @@
     --foreground: #ededed;
   }
 }
-
+*{
+  scroll-behavior: smooth;
+}
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: 'NunitoSans';
+  scroll-behavior: smooth;
 }
 
 
