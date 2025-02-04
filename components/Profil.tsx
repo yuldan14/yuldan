@@ -35,12 +35,9 @@ const Profil = () => {
 
           <div className="flex flex-wrap gap-3 justify-center">
             <div className="max-w-40 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-              <a href="#">
                 <img className="rounded-t-lg h-[8rem] object-cover" src="/analisis_data.jpg" alt="" />
-              </a>
               <div className="p-2">
-                <a href="#">
-                  <h5 className="mb-2 text-sm text-left tracking-tight text-gray-900 dark:text-white font-extralight">
+                  <h5 className="mb-2 text-sm text-left tracking-tight text-gray-900 dark:text-white font-extralight  cursor-default">
                     {" "}
                     <span className="bg-gradient-to-r from-pink-400 to-red-400 bg-clip-text text-transparent font-bold">
                       Menganalisis Data
@@ -48,16 +45,12 @@ const Profil = () => {
                     : Menggunakan Python dan Machine Learning untuk menemukan
                     pola dan wawasan tersembunyi.
                   </h5>
-                </a>
               </div>
             </div>
             <div className="max-w-40 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-              <a href="#">
                 <img className="rounded-t-lg h-[8rem] object-cover w-full" src="/web.jpg" alt="" />
-              </a>
               <div className="p-2">
-                <a href="#">
-                  <h5 className="mb-2 text-sm text-left tracking-tight text-gray-900 dark:text-white font-extralight">
+                  <h5 className="mb-2 text-sm text-left tracking-tight text-gray-900 dark:text-white font-extralight cursor-default">
                     {" "}
                     <span className="bg-gradient-to-r from-pink-400 to-red-400 bg-clip-text text-transparent font-bold">
                       Membangun Web
@@ -65,32 +58,24 @@ const Profil = () => {
                     : Menggunakan React dan Tailwind CSS untuk menciptakan
                     aplikasi web yang cepat dan responsif.
                   </h5>
-                </a>
               </div>
             </div>
             <div className="max-w-40 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-              <a href="#">
                 <img className="rounded-t-lg h-[8rem] object-cover w-full" src="/best.jpg" alt="" />
-              </a>
               <div className="p-2">
-                <a href="#">
-                  <h5 className="mb-2 text-sm text-left tracking-tight text-gray-900 dark:text-white font-extralight">
+                  <h5 className="mb-2 text-sm text-left tracking-tight text-gray-900 dark:text-white font-extralight  cursor-default">
                     {" "}
                     <span className="bg-gradient-to-r from-pink-400 to-red-400 bg-clip-text text-transparent font-bold">
                       Top Participant
                     </span>{" "}
                     di Talentclass Data Science Fundamental Class.
                   </h5>
-                </a>
               </div>
             </div>
             <div className="max-w-40 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-              <a href="#">
                 <img className="rounded-t-lg h-[8rem] object-cover w-full" src="/leader.jpg" alt="" />
-              </a>
               <div className="p-2">
-                <a href="#">
-                  <h5 className="mb-2 text-sm text-left tracking-tight text-gray-900 dark:text-white font-extralight">
+                  <h5 className="mb-2 text-sm text-left tracking-tight text-gray-900 dark:text-white font-extralight cursor-default">
                     {" "}
                     <span className="bg-gradient-to-r from-pink-400 to-red-400 bg-clip-text text-transparent font-bold">
                       Ketua Pelaksana
@@ -98,7 +83,6 @@ const Profil = () => {
                     untuk acara ICONIC IT yang diikuti oleh lebih dari 140 tim
                     dari 60 universitas di Indonesia.
                   </h5>
-                </a>
               </div>
             </div>
           </div>
