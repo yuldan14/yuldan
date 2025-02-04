@@ -31,7 +31,7 @@ const Profil = () => {
             baru adalah peluang untuk belajar bsesuatu yang baru dan menerapkan
             kreativitas.
           </p>
-          <h1 className="text-lg mb-2">Apa yang saya sudah lakukan?</h1>
+          <h1 className=" text-xl xl:text-3xl italic underline mb-5 mt-5">Apa yang saya sudah lakukan?</h1>
 
           <div className="flex flex-wrap xl:gap-10 gap-3 justify-center -mx-10">
             <div className="xl:max-w-40 max-w-36 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">

@@ -54,24 +54,24 @@ const Hero = () => {
         </div>
         <div className="w-full flex justify-center xl:w-1/5 ">
           {/* Media Sosial */}
-          <ul className="xl:left-[17rem] absolute bottom-24 flex w-[80%] xl:justify-around justify-between xl:flex-col xl:absolute xl:h-4/5 xl:bottom-[3rem] xl:w-fit">
+          <ul className="xl:left-[17rem] absolute bottom-24 flex w-[80%] xl:justify-around justify-between xl:flex-col xl:absolute xl:h-4/5 xl:bottom-[3rem] xl:w-fit z-50">
             <li className="bg-black px-3 py-3 rounded-full w-fit">
-              <a href="">
-                <Instagram className="" />
+              <a href="https://www.instagram.com/yuldaan" target='_blank'>
+                <Instagram />
               </a>
             </li>
             <li className="bg-black px-3 py-3 rounded-full w-fit">
-              <a href="">
+              <a href="https://www.linkedin.com/in/yuldan-nur-addinsyah-642b64255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
                 <Linkedin />
               </a>
             </li>
             <li className="bg-black px-3 py-3 rounded-full w-fit">
-              <a href="">
+              <a href="mailto:yuldann6@gmail.com" target="_blank">
                 <Mail />
               </a>
             </li>
             <li className="bg-black px-3 py-3 rounded-full w-fit ">
-              <a href="">
+              <a href="https://github.com/yuldan14" target="_blank">
                 <GitHub />
               </a>
             </li>
