@@ -33,7 +33,7 @@ const Profil = () => {
           </p>
           <h1 className="text-lg mb-2">Apa yang saya sudah lakukan?</h1>
 
-          <div className="flex flex-wrap gap-3 justify-center">
+          <div className="flex flex-wrap xl:gap-10 gap-3 justify-center">
             <div className="max-w-40 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                 <img className="rounded-t-lg h-[8rem] object-cover" src="/analisis_data.jpg" alt="" />
               <div className="p-2">
