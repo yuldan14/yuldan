@@ -33,8 +33,8 @@ const Profil = () => {
           </p>
           <h1 className="text-lg mb-2">Apa yang saya sudah lakukan?</h1>
 
-          <div className="flex flex-wrap xl:gap-10 gap-3 justify-center">
-            <div className="max-w-40 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div className="flex flex-wrap xl:gap-10 gap-3 justify-center -mx-10">
+            <div className="xl:max-w-40 max-w-36 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                 <img className="rounded-t-lg h-[8rem] object-cover" src="/analisis_data.jpg" alt="" />
               <div className="p-2">
                   <h5 className="mb-2 text-sm text-left tracking-tight text-gray-900 dark:text-white font-extralight  cursor-default">
@@ -47,7 +47,7 @@ const Profil = () => {
                   </h5>
               </div>
             </div>
-            <div className="max-w-40 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+            <div className="xl:max-w-40 max-w-36 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                 <img className="rounded-t-lg h-[8rem] object-cover w-full" src="/web.jpg" alt="" />
               <div className="p-2">
                   <h5 className="mb-2 text-sm text-left tracking-tight text-gray-900 dark:text-white font-extralight cursor-default">
@@ -60,7 +60,7 @@ const Profil = () => {
                   </h5>
               </div>
             </div>
-            <div className="max-w-40 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+            <div className="xl:max-w-40 max-w-36 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                 <img className="rounded-t-lg h-[8rem] object-cover w-full" src="/best.jpg" alt="" />
               <div className="p-2">
                   <h5 className="mb-2 text-sm text-left tracking-tight text-gray-900 dark:text-white font-extralight  cursor-default">
@@ -72,7 +72,7 @@ const Profil = () => {
                   </h5>
               </div>
             </div>
-            <div className="max-w-40 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+            <div className="xl:max-w-40 max-w-36 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                 <img className="rounded-t-lg h-[8rem] object-cover w-full" src="/leader.jpg" alt="" />
               <div className="p-2">
                   <h5 className="mb-2 text-sm text-left tracking-tight text-gray-900 dark:text-white font-extralight cursor-default">
