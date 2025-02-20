@@ -38,8 +38,9 @@ function Navbar() {
   return (
     <div className="w-full flex justify-center py-3 text-black sticky top-0 z-50">
       <div className="bg-slate-100 h-14 flex w-[90%] rounded-3xl">
-        <div className="w-[30%] h-full flex justify-center items-center font-extrabold">
+        <div className=" xl:justify-start border-black pl-3 w-[50%] h-full flex justify-center items-center font-extrabold ">
           <Image src={"/logo.png"} height={70} width={70} alt="Yuldan" />
+          <p className="uppercase ">Yuldan</p>
         </div>
         {/* Bagian Kanan Navbar */}
         <div className="w-4/5 h-screen">
@@ -52,7 +53,7 @@ function Navbar() {
             <li className="w-24 xl:flex xl:justify-center xl:items-center">
               <a
                 href="#profil"
-                className="bg-white text-black h-10 rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center"
+                className="bg-white text-black h-10 rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center text-sm"
               >
                 Profil
               </a>
@@ -60,7 +61,7 @@ function Navbar() {
             <li className="w-24 xl:flex xl:justify-center xl:items-center">
               <a
                 href="#organisasi"
-                className="bg-white text-black h-10 rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center"
+                className="bg-white text-black h-10 rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center text-sm"
               >
                 Organisasi
               </a>
@@ -68,7 +69,7 @@ function Navbar() {
             <li className="w-24 xl:flex xl:justify-center xl:items-center">
               <a
                 href="#proyek"
-                className="bg-white text-black h-10 rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center"
+                className="bg-white text-black h-10 rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center text-sm"
               >
                 Proyek
               </a>
@@ -76,7 +77,7 @@ function Navbar() {
             <li className="w-24 xl:flex xl:justify-center xl:items-center">
               <a
                 href="#sertifikat"
-                className="bg-white text-black h-10 rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center"
+                className="bg-white text-black h-10 rounded-2xl xl:bg-transparent w-full flex justify-center items-center text-center text-sm"
               >
                 Sertifikat
               </a>
