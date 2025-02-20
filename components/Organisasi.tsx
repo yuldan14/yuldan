@@ -1,4 +1,6 @@
+'use client'
 import React from "react";
+import Image from "next/image";
 
 const Organisasi = () => {
   const organisasiList = [
@@ -68,11 +70,17 @@ const Organisasi = () => {
               className="flex flex-col xl:flex-row gap-5 xl:gap-10 xl:items-center"
             >
               <div className="flex justify-center xl:w-2/12 mr-20 w-full">
-                <img
+              <Image
+                src={organisasi.imgSrc}
+                alt="organisasi"
+                width={200}
+                height={200}
+                className="object-cover rounded-full aspect-square"
+              />
+                {/* <img
                   src={organisasi.imgSrc}
                   alt="organisasi"
-                  className="object-cover rounded-full aspect-square"
-                />
+                /> */}
               </div>
               <div className="w-full xl:w-2/3">
                 <div className="flex flex-col gap-3 px-5">
