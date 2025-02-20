@@ -66,11 +66,18 @@ const Profil = () => {
                 key={index}
                 className="xl:max-w-40 max-w-36 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
               >
-                <img
-                  className="rounded-t-lg h-[8rem] object-cover w-full"
+                <Image
                   src={card.imgSrc}
                   alt={card.title}
+                  width={200}
+                  height={200}
+                  className="rounded-t-lg h-[8rem] object-cover w-full"
+
                 />
+                {/* <img
+                  src={card.imgSrc}
+                  alt={card.title}
+                /> */}
                 <div className="p-2">
                   <h5 className="mb-2 text-sm text-left tracking-tight text-gray-900 dark:text-white font-extralight cursor-default">
                     <span className="bg-gradient-to-r from-pink-400 to-red-400 bg-clip-text text-transparent font-bold">
