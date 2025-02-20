@@ -95,7 +95,7 @@ const Profil = () => {
               Motto
             </h4>
             <p>
-              "Sic Parvis Magna: Setiap perjalanan besar dimulai dengan langkah kecil. Tidak ada yang mustahil jika kita berani memulai dari yang sederhana."
+              &quot;Sic Parvis Magna: Setiap perjalanan besar dimulai dengan langkah kecil. Tidak ada yang mustahil jika kita berani memulai dari yang sederhana.&quot;
             </p>
           </div>
         </div>
