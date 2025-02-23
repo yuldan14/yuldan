@@ -63,19 +63,19 @@ const Organisasi = () => {
         </p>
       </div>
       <div className=" h-fit w-full pt-20 px-20">
-        <div className="flex flex-col gap-10">
+        <div className="flex flex-col gap-28">
           {organisasiList.map((organisasi, index) => (
             <div
               key={index}
-              className="flex flex-col xl:flex-row gap-5 xl:gap-10 xl:items-center"
+              className="flex flex-col xl:flex-row gap-10 xl:gap-10 xl:items-center"
             >
-              <div className="flex justify-center xl:w-2/12 mr-20 w-full">
+              <div className="flex justify-center xl:w-2/12 mr-20 w-full ">
               <Image
                 src={organisasi.imgSrc}
                 alt="organisasi"
                 width={200}
                 height={200}
-                className="object-cover rounded-full aspect-square"
+                className="object-cover rounded-full aspect-square w-8/12"
               />
                 {/* <img
                   src={organisasi.imgSrc}
